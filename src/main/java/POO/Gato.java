@@ -9,17 +9,12 @@ package POO;
  * @author deree
  */
 public class Gato extends Animal {
-    
-    public Gato(String pelo, String Boca, String Cola, String Ojo, Integer Pata) {
-        super(Pelo, Boca, Cola, Ojo, Pata);
-      
+
+    public Gato(String Pelo, String Boca, String Cola, String Ojo, Integer Patas) {
+        super(Pelo, Boca, Cola, Ojo, Patas);
     }
     
-    public void Sonido (){
-        System.out.println("El gato maulla");
+    public void Sonido(){
+        System.out.println("EL Gato Maulla");
     }
-    @Override
-    public void sonido(){
-        System.out.println("El gato maulla");
-    
 }

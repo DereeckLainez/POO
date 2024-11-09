@@ -9,7 +9,7 @@ package POO;
  * @author deree
  */
 public class Animal {
-    private String Pelo;
+    String Pelo;
     private String Boca;
     private String Cola;
     private String Ojo;
